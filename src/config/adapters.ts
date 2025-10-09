@@ -368,6 +368,22 @@ const BASE: IBasicProviderOptions[] = [
         chainId: 94,
         defaultPaymentToken: "eth",
     },
+    {
+        name: "element-base-1",
+        basicProvider: "element-bp-1",
+        block: 2345768,
+        contract: "0xa39A5f160a1952dDf38781Bd76E402B0006912A9",
+        chainId: 94,
+        defaultPaymentToken: "eth",
+    },
+    {
+        name: "element-base-2",
+        basicProvider: "element-bp-2",
+        block: 2345768,
+        contract: "0xa39A5f160a1952dDf38781Bd76E402B0006912A9",
+        chainId: 94,
+        defaultPaymentToken: "eth",
+    },
 ];
 
 const SKALE_NEBULA: IBasicProviderOptions[] = [
